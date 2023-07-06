@@ -1,8 +1,22 @@
 *{ 
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
 }
 .a{
     color: aqua;
     cursor: url("https://t3.ftcdn.net/jpg/02/16/61/12/360_F_216611200_XH37SaNS1S3kpcKhafU9HtlDj4IdtNoH.jpg"),auto;
+}
+.container{
+    display: flex;
+}
+.box{
+    padding:20px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blue;
 }
