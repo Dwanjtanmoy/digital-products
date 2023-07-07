@@ -35,7 +35,7 @@
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background-image: url("./images/background.png"),linear-gradient(45deg,#101010,#2d2a2a);
     color: white;
     background-position: center;
@@ -64,4 +64,44 @@
     background-color: aqua;
     cursor: pointer;
     font-weight:bold;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+
+}
+.box-btn{
+   background-color: gray;
+   margin-top: 10px;
+
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
